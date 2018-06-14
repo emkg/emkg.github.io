@@ -24,13 +24,12 @@ github_username:  emkg
 # Build settings
 markdown: kramdown
 theme: minima
-plugins:
-  - jekyll-feed
-keep_files: [assets/images, assets/images/leaflet_react.gif, assets/images/newse_tour.gif, assets/images/newse_unit_scroll.gif]
-assets:
-    cache: false
-    sources:
-        - _site/assets/images
+
+defaults:
+  - scope:
+      path: "images/"
+    values:
+      image: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
