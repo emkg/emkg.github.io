@@ -1,101 +1,115 @@
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet" type="text/css" />
+<style>
 
-.title {
-    font-size: 100px;
-    text-align: center;
-    border: 5px solid pink;
-    border-left: white;
-    border-right: white;
-}
+    .cute-container {
+      border: solid black 2px;
+    }
 
-.matryoshka1 {
-    max-width: 100%;
-    margin: 0 20px 0 20px;
-}
+    .title {
+        font-size: 100px;
+        text-align: center;
+        border: 5px solid pink;
+        border-left: white;
+        border-right: white;
+    }
 
-.row {
-    margin: 0 auto;
-}
+    .title > a {
+      color: black;
+      font-size: 5em;
+    }
 
-.row div {
-    display: inline-block;
-}
+    .matryoshka1 {
+        max-width: 100%;
+        margin: 0 20px 0 20px;
+    }
 
-.row .img-container {
-    width: 500px;
-    height: 500px;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
+    .row {
+        margin: 0 auto;
+    }
 
-}
+    .row div {
+        display: inline-block;
+    }
 
-.img-container img {
-    width: 100%;
-}
+    .row .img-container {
+        width: 500px;
+        height: 500px;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
 
-.row iframe {
-    width: 500px;
-    height: 500px;
-    border: 2px solid gray;
+    }
 
-}
+    .img-container img {
+        width: 100%;
+    }
 
-.text {
-    font-family: sans-serif;
-    font-weight: 200;
-    font-size: 1.25em;
-    line-height: 20px;
-    background: white;
-}
+    .row iframe {
+        width: 500px;
+        height: 500px;
+        border: 2px solid gray;
 
-.matryoshka2 .text {
-    margin: 10px;
-    max-width: 490px;
-    min-width: 490px;
-    text-align: justify;
-}
+    }
 
-.header {
-    font-family: "Amatic SC";
-    font-size: 1.25em;
-    color: black;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
+    .text {
+        font-family: sans-serif;
+        font-weight: 200;
+        font-size: 1.25em;
+        line-height: 20px;
+        background: white;
+    }
 
-.right {
-    float: right;
-    text-align: right;
-}
+    .matryoshka2 .text {
+        margin: 10px;
+        max-width: 490px;
+        min-width: 490px;
+        text-align: justify;
+    }
 
-.left {
-    float: left;
-    text-align: left;
-}
+    .header {
+        font-family: "Amatic SC";
+        font-size: 1.25em;
+        color: black;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
 
-audio {
-    position: relative;
-    width: 100%;
-}
+    .right {
+        float: right;
+        text-align: right;
+    }
 
-.row .bottom {
-    text-align: center;
-    border: 2px solid pink;
-    max-width: 2500px;
-}
+    .left {
+        float: left;
+        text-align: left;
+    }
 
-.row .row {
-    width: 100%;
-}
+    audio {
+        position: relative;
+        width: 100%;
+    }
+
+    .row .bottom {
+        text-align: center;
+        border: 2px solid pink;
+        max-width: 2500px;
+    }
+
+    .row .row {
+        width: 100%;
+    }
 
 
-p {
-    text-align: center;
-    font-family: monospace;
-    font-size: 1.25em;
-}
+    p.fine-print {
+        text-align: center;
+        font-family: monospace;
+        font-size: 1.25em;
+    }
 
-a:hover {
-    text-decoration: none;
-}
+    a:hover {
+        text-decoration: none;
+    }
+
+
+</style>
